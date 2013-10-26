@@ -13,7 +13,8 @@
 		embed = document.getElementsByTagName('embed')
 		if (embed.length > 0) {
 			debugLog('not html5')
-			ytcode = window.location.search.replace('?v=','').replace(/&.+/,'')
+			ytcode = window.location.search.replace(/.+\\?v=/,'').replace(/&.+/,'')
+			console.log(ytcode);
 			iframe = document.createElement('iframe')
 			iframe.src = "http://www.youtube.com/embed/" + ytcode + "?html5=1"
 			iframe.width="100%"
