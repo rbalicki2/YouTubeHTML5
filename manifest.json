@@ -9,5 +9,9 @@
   		"matches": ["http://www.youtube.com/*", "https://www.youtube.com/*"],
   		"js": ["script.js"]
   	}
-  ]
+  ],
+  "icons": {
+  	"128" : "logo.png",
+  	"48" : "logo.png"
+  }
 }
