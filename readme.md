@@ -8,3 +8,5 @@ YouTube HTML5 Chrome Plugin
 * To install, clone the repo, then navigate to chrome://extensions, check "Developer Mode", click "Load Unpacked Extension..." and select the folder.
 
 * Contact me at robert.balicki@gmail.com
+
+I made this??
